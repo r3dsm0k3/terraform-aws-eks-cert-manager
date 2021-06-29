@@ -11,6 +11,6 @@ route53:
       name: cluster-issuer-secret
   region: "eu-west-1"
   #hostedZoneID: DIKER8JEXAMPLE # optional, see policy above
-  #roleArn: arn:aws:iam::YYYYYYYYYYYY:role/dns-manager
+  roleArn: arn:aws:iam::YYYYYYYYYYYY:role/dns-manager
   dnsZones:
     - "example.com"
